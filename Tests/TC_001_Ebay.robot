@@ -14,6 +14,7 @@ Ebay Test0
     Click Link  xpath=(//a[@href="https://www.ebay.com/b/Car-Truck-Parts/6030/bn_562630"])[2]
     Click Element  //div[@class="b-visualnav__title"]
     Click Element  //div[@class="b-visualnav__title"]
+    #ebay link doesn't work
     Click Element  //img[@id="gh-logo"]
 
 #Ebay Test
@@ -26,6 +27,7 @@ Ebay Test0
     #Click Element  xpath=(//li)[77]
     Click Link  //a[@id="binBtn_btn"]
     Click Element  //button[@id="sbin-signin-btn"]
+    #ebay link doesn't work
     Click Link  xpath://img[@role='presentation']
 
 
