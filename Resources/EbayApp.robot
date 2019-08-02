@@ -24,8 +24,9 @@ Sneaker Search
     Click Element  //input[@id="gh-btn"]
     Click Element  xpath=(//h3[@class="s-item__title s-item__title--has-tags"])[4]
     Click Link  //a[@id="binBtn_btn"]
-    Select From List By Value  //select[@name="US Shoe Size (Men's)"]  4
-    #Click Element  xpath=(//li)[77]
-    Click Link  //a[@id="binBtn_btn"]
-    Click Element  //button[@id="sbin-signin-btn"]
+    sleep  3s
+    #Dynamic Variables
+    Select From List By Value    //select[@name="US Shoe Size (Men's)"]  3
+    Click Link    //a[@id="binBtn_btn"]
+    Click Element    //button[@id="sbin-signin-btn"]
     Click Link  eBay Logo
